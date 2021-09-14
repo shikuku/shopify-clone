@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 :root{
-  --primary-color:#004C3F;
+  --primary-color:#008060;
   --dark-grey:#9C8E85;
   --light-grey:#212326cc;
   --beige:#FBF7ED;
   --white:#fff;
+  --primary-color-dark:#004C3F;
 
 
 }
@@ -31,6 +32,7 @@ Body{
   padding: 1em;
   margin-bottom: 5em;
   border:none;
+  cursor:pointer;
 }
 
 .btn-green{
@@ -39,6 +41,11 @@ color: var(--white);
 margin-top: 5em;
 padding: 1.2em;
 border-radius: 5px;}
+.btn-green:hover{
+  background-color:#004C3F ;
+  transition: all .5s ease-in;
+}
+
 
 
 
@@ -71,14 +78,14 @@ display:flex;
 
 }
 .hero-right{
-  width:70%;
+  width:30%;
 }
 
 .hero-left{
   font-size:0.5rem;
   color:var(--light-grey);
   padding:0.5em;
-  width:30% ;
+  width:700% ;
 }
 h1{font-size: 3rem;
   text-decoration: capitalize;
